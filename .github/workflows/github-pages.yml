@@ -15,5 +15,5 @@ jobs:
         with:
           branch: gh-pages
           folder: lectures
-          target-folder: modules/lectures/_posts
+          target_folder: modules/lectures/_posts
           clean: off
