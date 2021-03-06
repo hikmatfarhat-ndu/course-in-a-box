@@ -31,7 +31,7 @@ jobs:
 
       - name: Build Marp slide deck
         run: |
-          CHROME_PATH=$(node .puppeteer.js) npm run build
+          npm run build
           touch ./dist/.nojekyll
         env:
           URL: https://${{ github.event.repository.owner.name }}.github.io/${{ github.event.repository.name }}
